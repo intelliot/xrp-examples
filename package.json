@@ -1,0 +1,12 @@
+{
+  "name": "xrp-examples",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "ripple-lib": "git+ssh://git@github.com:ripple/ripple-lib.git#DepositPreauth"
+  },
+  "scripts": {
+    "compile": "yarn --cwd node_modules/ripple-lib install && yarn --cwd node_modules/ripple-lib compile"
+  }
+}
