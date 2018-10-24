@@ -41,7 +41,7 @@ async function DepositPreauth() {
   const status = await api.getTransaction(signed.id)
   console.log('status', JSON.stringify(status, null, 2))
 
-  // process.exit(0)
+  process.exit(0)
 }
 
 function sleep(ms) {
